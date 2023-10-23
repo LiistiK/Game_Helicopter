@@ -21,9 +21,9 @@ class Helicopter:
             self.x, self.y = nx, ny
 
     def print_stats(self):
-        print('Tank ', self.tank, '/', self.mxtank, sep='', end=' | ')
-        print('Score', self.score, end=' | ')
-        print('Lives', self.lives)
+        print('🛢️ ', self.tank, '/', self.mxtank, sep='', end=' | ')
+        print('🏆', self.score, end=' | ')
+        print('❤️', self.lives)
 
     def game_over(self):    
         os.system("cls")
