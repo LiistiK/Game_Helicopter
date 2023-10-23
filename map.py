@@ -48,7 +48,6 @@ class Map:
         self.cells[rx][ry] = 2
         for _ in range(l):
             rc2 = randcell2(rx, ry)
-            print(rc2)
             rx2, ry2 = rc2[0], rc2[1]
             if self.check_bounds(rx2, ry2):
                 self.cells[rx2][ry2] = 2
